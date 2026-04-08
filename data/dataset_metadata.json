@@ -1,0 +1,13 @@
+{
+    "app_name": "Calm",
+    "dataset_size": 3819,
+    "collection_method": "Scraped from Google Play Store using google-play-scraper",
+    "cleaning_decisions": [
+        "Removed duplicates and null entries",
+        "Filtered out reviews with < 4 characters after processing",
+        "Converted numbers to text using inflect",
+        "Removed punctuation, special characters, and emojis via Regex",
+        "Lowercased all text",
+        "Removed stop words and performed lemmatization using spaCy en_core_web_sm"
+    ]
+}
