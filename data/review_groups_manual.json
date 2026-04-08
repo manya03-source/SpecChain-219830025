@@ -1,12 +1,77 @@
 {
-  "groups": [
-    {
-      "group_id": "G1",
-      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
-      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
-      "example_reviews": [
-        "The app crashes every time I log my run.",
-        "Logging workouts causes the app to freeze."
-      ]
+    "group_1": {
+        "theme": "Users who feel the app is too expensive, misleading about being free, or creates paywall barriers.",
+        "review_ids": [
+            "c4ce35dc-05b6-4008-913f-55141168d864",
+            "52872ba3-1504-4a89-9aed-7e4347d690af",
+            "6b172be8-ff31-413c-be18-503352781568",
+            "dbd3ce6d-c19c-4ee2-90fe-2e1a87415fa6",
+            "0c57b96e-5d04-4efc-bed5-2dfc54fd5a02",
+            "6894ec8b-e738-4e67-b94a-bb3a3a248b56",
+            "e725887d-b586-4f10-aaa0-73f99ad01f8a",
+            "66644875-6bfd-425a-a942-46592e9d88b7",
+            "8efc2db4-5085-49ba-8831-6b2acf3b85b3",
+            "41832c5e-7004-4550-8330-479a6ea92afd"
+        ]
+    },
+    "group_2": {
+        "theme": "Users who experienced functional failures, crashes, or performance issues with the app.",
+        "review_ids": [
+            "9e67fca4-ac8f-44e5-9d5a-f80cf5321e99",
+            "3f98faf8-4604-44b0-b590-59f0dc7b66d7",
+            "9d22493a-75e9-485b-93d1-668c4928dc92",
+            "12456b0e-d105-4f22-8ae6-aac3ac2af776",
+            "7d8aa2f6-75b4-45a9-a1fe-c8afe0734b70",
+            "1b2a984e-496a-4455-9eb9-26de6e93118f",
+            "ce1781b1-238d-406e-8eff-12b924373a8a",
+            "c337323a-f845-4d24-a8ea-a3e8b30df8b3",
+            "93289d30-64fc-4374-9649-b148c0277922",
+            "47ae495b-e6a6-4fb8-9b8e-3ab22c2740fc"
+        ]
+    },
+    "group_3": {
+        "theme": "Users who struggle to unsubscribe, feeling scammed by autopay, or unable to get refunds.",
+        "review_ids": [
+            "b0cee7b0-d66e-4043-bd5e-d7a70f51bcce",
+            "aa7c2158-4ac5-4ca2-a509-9fdaf84cef67",
+            "51c3c3cb-e607-494c-ad63-91fe1954df44",
+            "78970e15-6d89-4fe1-9714-6d66469f3884",
+            "51b22cc9-c989-4c26-8d77-0327deda83c1",
+            "2c4beb61-c2b1-498d-a144-d5532da67901",
+            "1e5e9a3e-b2a2-43b0-b8d1-a0cfda42a420",
+            "fb84e0ff-1791-417a-977f-115b6c3d8fee",
+            "d02e6c4e-558e-4c62-a042-3fcb73a0038f",
+            "0c2a1235-3ba4-4eba-961e-3e37b7bdc09d"
+        ]
+    },
+    "group_4": {
+        "theme": "Users who had positive experiences regarding falling asleep and stories.",
+        "review_ids": [
+            "699b604b-0364-46ff-8e00-83c4cb2c9c70",
+            "8b315fb3-34cf-4ae8-818c-d36de2bc2526",
+            "dbf4a3cd-06ef-4fff-8532-248263d095ad",
+            "5d9be961-8442-4c94-8aae-7fa46b396053",
+            "33ec3191-81c9-4a24-b416-9c365345bbdd",
+            "305a3eee-9d39-42df-90d4-8497ca35586e",
+            "fab59cc6-f09f-4bcd-aa5c-e390afd9fe58",
+            "63bdff46-75cc-433d-8226-b18cfaebf899",
+            "fc0d1253-5535-43ff-b601-cd117384046e",
+            "7c820d92-8a4a-4138-b3c0-0f667c090cb4"
+        ]
+    },
+    "group_5": {
+        "theme": "Users who were annoyed by pop-ups, upsells, ads that disrupt the Calm experience.",
+        "review_ids": [
+            "b71691f1-1292-4495-a5bb-592fb3e85a3b",
+            "c5936d4e-8ff8-4102-ae1e-fa8b0b991675",
+            "c0c49eb7-64ae-4844-bed3-c0a014c3eead",
+            "6d310ddf-d42d-4a9a-a029-2b2edec54852",
+            "7d8aa2f6-75b4-45a9-a1fe-c8afe0734b70",
+            "47ae495b-e6a6-4fb8-9b8e-3ab22c2740fc",
+            "c14ba968-432c-4907-a05f-ffa65f0427a3",
+            "1cdeb88a-141a-4fa0-a0a4-fd400c4bf16a",
+            "ef8c2135-0098-4a4d-9b9c-911ba5d67112",
+            "b5d92cd8-c896-4c99-9472-f09c824a6c46"
+        ]
     }
-  ]}
+}

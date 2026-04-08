@@ -1,22 +1,108 @@
 {  "personas": [
     {
       "id": "P1",
-      "name": "Frequent Activity Tracker",
-      "description": "A user who relies on the app to log workouts frequently and expects stable performance.",
-      "derived_from_group": "G1",
+      "name": "Budget Conscious Sarah",
+      "description": "A busy single parent operating on a strict household budget, who seeks mental health support without any hidden financial traps.",
+      "derived_from_group": "group_1",
       "goals": [
-        "Track workouts consistently",
-        "Log activity quickly"      ],
+        "Access high quality mindfullness content without immediate financial commitment",
+        "Clearly distinguish between free and premium content before interaction."      ],
       "pain_points": [
-        "App crashes during logging",
-        "Workout data sometimes disappears"      ],
+        "Misleading free advertisements that lead to immediate paywalls",
+        "High annual subscription fees that feel exclusionary to budget-conscious users"      ],
       "context": [
-        "Logging activities immediately after workouts",
-        "Using the app during outdoor exercise"      ],
+        "Using the app late at night to decompress after household chores",
+        "Navigating the app in a high stress emotional state seeking immediate relief"      ],
       "constraints": [
-        "Logging must be reliable",
-        "Data should not be lost"       ],
+        "Financial barrier must not prevent access to atleast one core meditation feature.",
+        "Pricing transparency should be there before the account is created."       ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_45"      ]
+        "c4ce35dc-05b6-4008-913f-55141168d864",
+        "52872ba3-1504-4a89-9aed-7e4347d690af"     ]
+        
+    },
+    {
+      "id": "P2",
+      "name": "Interrupted Ian",
+      "description": "A tech smart professional with chronic insomnia who relies on wearable integration for a silent, all night sleep utility.",
+      "derived_from_group": "group_2",
+      "goals": [
+        "Ensure 8 hours of uniterrupted audio playback for sound sleep",
+        "Synchronize meditation data seamlessly across phone and watches"      ],
+      "pain_points": [
+        "Audio playback that stops randomly, causing sleep disruption",
+        "Watch version failing to play for more than 60 seconds at one time"      ],
+      "context": [
+        "Setting up sleep sessions in a dark room while half asleep",
+        "Relying on wearable devices or small screens for control"      ],
+      "constraints": [
+        "Playback must remain active even during screenoff mode or when the app is in the background.",
+        "Wearable app must mirror the stability of the primary mobile application."       ],
+      "evidence_reviews": [
+        "9e67fca4-ac8f-44e5-9d5a-f80cf5321e99",
+        "3f98faf8-4604-44b0-b590-59f0dc7b66d7"     ]
+        
+    },
+    {
+      "id": "P3",
+      "name": "Burned out Brenda",
+      "description": "A cautious consumer who feels exploited by 'dark pattern' subscription settings and difficult to navigate cancellation paths." ,
+      "derived_from_group": "group_3",
+      "goals": [
+        "Terminate recurring subscriptions with a simple, transparent action",
+        "Recover funds from unauthorized auto renewals effectively"      ],
+      "pain_points": [
+        "Autopay settings that revert to 'on' without notifying users.",
+        "Bouncing between Play Store and developer support without resolution"      ],
+      "context": [
+        "Attempting to manage administrative settings during limited work breaks",
+        "Feeling defensive and scammed due to lack of customer service response"      ],
+      "constraints": [
+        "Cancellation must be accessible within two taps of the main settings menu",
+        "Refund status must be trackable directly within the application"       ],
+      "evidence_reviews": [
+        "b0cee7b0-d66e-4043-bd5e-d7a70f51bcce",
+        "aa7c2158-4ac5-4ca2-a509-9fdaf84cef67"     ]  
+    },
+    {
+      "id": "P4",
+      "name": "Devoted David",
+      "description": "A longterm power user who views the app as an essential anchor for managing anxiety and daily health hygiene.",
+      "derived_from_group": "group_4",
+      "goals": [
+        "Maintain a longterm streak to visualize mental health progress",
+        "Access a diverse library of non verbal music and new narrators"      ],
+      "pain_points": [
+        "Content fatigue from lack of diversity in ambient piano covers",
+        "UI updates that bury his favorite, most frequently used sleep stories"     ],
+      "context": [
+        "Using the app as a primary tool for morning and evening routines",
+        "Searching for specific stories daily to maintain consistency"      ],
+      "constraints": [
+        "Daily streak logging must be 100% accurate to maintain motivation",
+        "Content discovery must allow filtering by narrator or specific sub genre"       ],
+      "evidence_reviews": [
+        "699b604b-0364-46ff-8e00-83c4cb2c9c70",
+        "8b315fb3-34cf-4ae8-818c-d36de2bc2526"      ]  
+    },
+    {
+      "id": "P5",
+      "name": "Minimalistic Maya",
+      "description": "A purist seeking a silent, popup free environemnt who is highly sensitive to digital clutter and aggressive marketing.",
+      "derived_from_group": "group_5",
+      "goals": [
+        "Navigate directly to a meditation session without marketing interruptions",
+        "Consume human curated content over AI generated or gamified features"      ],
+      "pain_points": [
+        "Rage inducing popups for streaks or referrals that break focus",
+        "Aggressive selling techniques that contradict the app's calming purpose"      ],
+      "context": [
+        "Using the app in short bursts to find a still point during work stress",
+        "Seeking an authentic, zen digital experience for mindfulness"      ],
+      "constraints": [
+        "Must include an option to disable all gamification and social notifications",
+        "Initial app launch must lead to content within one interaction"       ],
+      "evidence_reviews": [
+        "b71691f1-1292-4495-a5bb-592fb3e85a3b",
+        "c5936d4e-8ff8-4102-ae1e-fa8b0b991675"      ]  
     }  ] }

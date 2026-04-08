@@ -2,15 +2,264 @@
 {
   "tests": [
     {
-      "test_id": "T_auto_1",
+      "test_id": "T_manual_01",
       "requirement_id": "FR1",
-      "scenario": "Workout Logging Stability",
+      "scenario": "Play free session without an account",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Launch the application as a guest",
+        "Navigate to a session marked as 'Free'",
+        "Tap the play button"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "The audio session starts and plays to completion without displaying a payment prompt."
+    },
+    {
+      "test_id": "T_manual_02",
+      "requirement_id": "FR1",
+      "scenario": "Play free session with a newly created account",
+      "steps": [
+        "Create a new user account and skip payment setup",
+        "Navigate to a session marked as 'Free'",
+        "Tap the play button"
+      ],
+      "expected_result": "The audio session starts and plays to completion without displaying a payment prompt."
+    },
+    {
+      "test_id": "T_manual_03",
+      "requirement_id": "FR2",
+      "scenario": "Verify lock icons on premium content",
+      "steps": [
+        "Log in as a free user",
+        "Navigate to the main content library",
+        "Scroll through the list of available sessions"
+      ],
+      "expected_result": "All content requiring a premium subscription displays a distinct lock icon on its thumbnail."
+    },
+    {
+      "test_id": "T_manual_04",
+      "requirement_id": "FR2",
+      "scenario": "Verify instant pricing display on locked content",
+      "steps": [
+        "Log in as a free user",
+        "Tap on a session displaying a lock icon"
+      ],
+      "expected_result": "The premium subscription pricing details display immediately without navigating to a separate billing screen."
+    },
+    {
+      "test_id": "T_manual_05",
+      "requirement_id": "FR3",
+      "scenario": "Continuous playback in background mode",
+      "steps": [
+        "Start an 8 hour sleep audio track",
+        "Minimize the application to background mode",
+        "Wait for 8 hours"
+      ],
+      "expected_result": "The audio continues playing for the full 8 hours without interruption."
+    },
+    {
+      "test_id": "T_manual_06",
+      "requirement_id": "FR3",
+      "scenario": "Continuous playback with screen off",
+      "steps": [
+        "Start an 8 hour sleep audio track",
+        "Press the device's physical power button to turn off the screen",
+        "Wait for 8 hours"
+      ],
+      "expected_result": "The audio continues playing for the full 8 hours without interruption."
+    },
+    {
+      "test_id": "T_manual_07",
+      "requirement_id": "FR4",
+      "scenario": "Watch app playback stability over 60 minutes",
+      "steps": [
+        "Launch the application on a connected wearable device (a watch)",
+        "Start a meditation session longer than 60 minutes",
+        "Monitor the device for 65 minutes"
+      ],
+      "expected_result": "The audio plays continuously past the 60-minute mark without crashing or timing out."
+    },
+    {
+      "test_id": "T_manual_08",
+      "requirement_id": "FR4",
+      "scenario": "Watch app independent playback",
+      "steps": [
+        "Download a session to the wearable device",
+        "Disconnect the wearable from the phone's Bluetooth connection",
+        "Start the downloaded session on the wearable"
+      ],
+      "expected_result": "The session plays successfully to completion independently of the phone."
+    },
+    {
+      "test_id": "T_manual_09",
+      "requirement_id": "FR5",
+      "scenario": "Locate cancellation button",
+      "steps": [
+        "Log in as a premium subscriber",
+        "Navigate to Account Settings",
+        "Navigate to Manage Subscription"
+      ],
+      "expected_result": "A 'Cancel Subscription' button is clearly visible within two taps from the main Settings menu."
+    },
+    {
+      "test_id": "T_manual_10",
+      "requirement_id": "FR5",
+      "scenario": "Execute one click cancellation",
+      "steps": [
+        "Navigate to Manage Subscription",
+        "Click the 'Cancel Subscription' button",
+        "Confirm the cancellation prompt"
+      ],
+      "expected_result": "The subscription is cancelled immediately without requiring the user to navigate through multiple 'Save Offer' popups."
+    },
+    {
+      "test_id": "T_manual_11",
+      "requirement_id": "FR6",
+      "scenario": "Verify no charges post cancellation",
+      "steps": [
+        "Successfully cancel a premium subscription",
+        "Simulate the arrival of the next billing cycle date"
+      ],
+      "expected_result": "The system does not process any charges to the user's saved payment method."
+    },
+    {
+      "test_id": "T_manual_12",
+      "requirement_id": "FR6",
+      "scenario": "Verify autopay toggle remains disabled",
+      "steps": [
+        "Successfully cancel a premium subscription",
+        "Log out and log back into the account",
+        "Navigate to payment settings"
+      ],
+      "expected_result": "The autopay toggle remains in the 'Off' position and does not automatically reactivate."
+    },
+    {
+      "test_id": "T_manual_13",
+      "requirement_id": "FR7",
+      "scenario": "Increment streak on session completion",
+      "steps": [
+        "Note the user's current daily streak number",
+        "Start and fully complete a 5 minute meditation session",
+        "Return to the profile page"
+      ],
+      "expected_result": "The 'Daily Streak' counter increments by exactly one."
+    },
+    {
+      "test_id": "T_manual_14",
+      "requirement_id": "FR7",
+      "scenario": "Do not increment streak on incomplete session",
+      "steps": [
+        "Note the user's current daily streak number",
+        "Start a 5 minute meditation session",
+        "Abort the session after 1 minute",
+        "Return to the profile page"
+      ],
+      "expected_result": "The 'Daily Streak' counter does not increment."
+    },
+    {
+      "test_id": "T_manual_15",
+      "requirement_id": "FR8",
+      "scenario": "Filter search by exact narrator name",
+      "steps": [
+        "Navigate to the search bar",
+        "Enter a specific narrator's name",
+        "Execute the search"
+      ],
+      "expected_result": "The search results display only content narrated by or featuring the searched name."
+    },
+    {
+      "test_id": "T_manual_16",
+      "requirement_id": "FR8",
+      "scenario": "Follow narrator functionality",
+      "steps": [
+        "Search for a narrator",
+        "Click the 'Follow' button next to their profile",
+        "Navigate to the user's profile settings"
+      ],
+      "expected_result": "The narrator is added to the user's followed list and notification preferences are updated."
+    },
+    {
+      "test_id": "T_manual_17",
+      "requirement_id": "FR9",
+      "scenario": "Enable Minimalist Mode",
+      "steps": [
+        "Navigate to App Settings",
+        "Toggle 'Minimalist Mode' to ON",
+        "Return to the home screen"
+      ],
+      "expected_result": "All gamification elements, streak banners, and promotional popups are completely removed from the UI."
+    },
+    {
+      "test_id": "T_manual_18",
+      "requirement_id": "FR9",
+      "scenario": "Disable Minimalist Mode",
+      "steps": [
+        "Navigate to App Settings",
+        "Toggle 'Minimalist Mode' to OFF",
+        "Return to the home screen"
+      ],
+      "expected_result": "Gamification elements, streak counters, and standard UI elements reappear."
+    },
+    {
+      "test_id": "T_manual_19",
+      "requirement_id": "FR10",
+      "scenario": "Direct content access for returning users",
+      "steps": [
+        "Log in as a returning user",
+        "Force close the application",
+        "Relaunch the application"
+      ],
+      "expected_result": "The application lands directly on the content home screen without displaying a subscription upsell page."
+    },
+    {
+      "test_id": "T_manual_20",
+      "requirement_id": "FR10",
+      "scenario": "Verify absence of full-screen popups on launch",
+      "steps": [
+        "Ensure the user account has a previously active history",
+        "Launch the application"
+      ],
+      "expected_result": "The user is not blocked by a 'Full Screen' subscription offer and can immediately access categories."
+    },
+    {
+      "test_id": "T_manual_21",
+      "requirement_id": "FR11",
+      "scenario": "Refund option available within 48 hours",
+      "steps": [
+        "Simulate an auto renewal charge on the account occurring 24 hours ago",
+        "Navigate to Manage Subscription"
+      ],
+      "expected_result": "A 'Request Refund' button is clearly visible and functional."
+    },
+    {
+      "test_id": "T_manual_22",
+      "requirement_id": "FR11",
+      "scenario": "Refund option hidden after 48 hours",
+      "steps": [
+        "Simulate an auto renewal charge on the account occurring 72 hours ago",
+        "Navigate to Manage Subscription"
+      ],
+      "expected_result": "The 'Request Refund' button is disabled, hidden, or directs the user to standard customer support."
+    },
+    {
+      "test_id": "T_manual_23",
+      "requirement_id": "FR12",
+      "scenario": "Offline playback in Airplane Mode",
+      "steps": [
+        "Download an audio track to the device's local storage",
+        "Enable Airplane Mode on the device",
+        "Navigate to downloads and play the track"
+      ],
+      "expected_result": "The audio track plays to completion without requiring an internet connection."
+    },
+    {
+      "test_id": "T_manual_24",
+      "requirement_id": "FR12",
+      "scenario": "Playback stability during connection loss",
+      "steps": [
+        "Download an audio track to local storage",
+        "Start playing the track while connected to Wifi",
+        "Turn off the Wifi connection mid playback"
+      ],
+      "expected_result": "The audio track continues to play to completion without buffering or crashing."
     }
   ]
 }
