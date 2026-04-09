@@ -1,0 +1,141 @@
+[
+    {
+        "id": "P1",
+        "name": "Serenity Seeker",
+        "description": "A stressed individual seeking relaxation and sleep through meditation and calming sounds.",
+        "derived_from_group": "relaxation seekers",
+        "goals": [
+            "Relax and reduce stress",
+            "Improve sleep quality",
+            "Find calmness and serenity"
+        ],
+        "pain_points": [
+            "Difficulty sleeping due to stress and anxiety",
+            "Annoying ads and interruptions",
+            "Limited access to varied and soothing content"
+        ],
+        "context": [
+            "Before bed or during sleep",
+            "During meditation or relaxation exercises",
+            "In moments of high stress or anxiety"
+        ],
+        "constraints": [
+            "Willing to pay for a subscription for premium content",
+            "Seeks a user-friendly and calming interface"
+        ],
+        "evidence_reviews": [
+            "95d033e4-362d-4bdd-8a0b-fea8dd1d2655",
+            "91b2a807-ac17-4a3a-911a-c2fb629ee222"
+        ]
+    },
+    {
+        "id": "P1",
+        "name": "Frustrated Freeloader",
+        "description": "A user seeking free content who is frustrated by paywalls and expensive subscriptions",
+        "derived_from_group": "free_users",
+        "goals": [
+            "access free content",
+            "avoid paying for subscriptions"
+        ],
+        "pain_points": [
+            "encountering paywalls",
+            "being charged unexpectedly",
+            "confusing free trials"
+        ],
+        "context": [
+            "searching for free alternatives to paid apps",
+            "trying to avoid subscription services"
+        ],
+        "constraints": [
+            "limited budget",
+            "skepticism towards paid services"
+        ],
+        "evidence_reviews": [
+            "a2969ce0-92c1-4097-b7fc-499b1f70ff24",
+            "077d4232-552e-438b-96fd-6b3cebc557ca",
+            "seven day free trial app work expensive subscription free trial thirty day ill review near future maybe star",
+            "suppose seven day free trial keep decline card obviously try bill free trial scam"
+        ]
+    },
+    {
+        "id": "P1",
+        "name": "Calm Seeker",
+        "description": "A person seeking relaxation and sleep aid through meditation apps",
+        "derived_from_group": "relaxation seekers",
+        "goals": [
+            "find a good meditation app",
+            "improve sleep quality",
+            "reduce stress"
+        ],
+        "pain_points": [
+            "difficulty sleeping",
+            "feeling stressed or anxious"
+        ],
+        "context": [
+            "before bed",
+            "during meditation sessions"
+        ],
+        "constraints": [
+            "looking for a free or affordable app"
+        ],
+        "evidence_reviews": [
+            "a688d4a7-8ea8-41e3-b421-0013e6b1bf3b",
+            "a3248265-007f-4de4-80d4-6e919eb51c82"
+        ]
+    },
+    {
+        "id": "P1",
+        "name": "Serenity Seeker",
+        "description": "A user seeking relaxation and mindfulness through meditation and soothing sounds",
+        "derived_from_group": "relaxation enthusiasts",
+        "goals": [
+            "find a calming meditation app",
+            "listen to soothing sounds for relaxation"
+        ],
+        "pain_points": [
+            "difficulty finding effective meditation tools",
+            "need for constant relaxation options"
+        ],
+        "context": [
+            "during sleep or relaxation",
+            "when feeling stressed or anxious"
+        ],
+        "constraints": [
+            "easy to use interface"
+        ],
+        "evidence_reviews": [
+            "love not wait subscribe",
+            "love sleeping sound",
+            "meditation love",
+            "love life change"
+        ]
+    },
+    {
+        "id": "P5",
+        "name": "Frustrated Subscriber",
+        "description": "A user who is frustrated with the app's subscription model and poor customer support",
+        "derived_from_group": "group_5",
+        "goals": [
+            "manage subscription easily",
+            "get a refund or cancel subscription"
+        ],
+        "pain_points": [
+            "poor tech support",
+            "involuntary charges",
+            "difficulty canceling subscription"
+        ],
+        "context": [
+            "trying to cancel subscription",
+            "experiencing technical issues",
+            "seeking refund or help from customer support"
+        ],
+        "constraints": [
+            "limited time to manage subscription",
+            "fear of being charged unexpectedly"
+        ],
+        "evidence_reviews": [
+            "4c669981-275f-46b6-b14f-7f9865e9274b",
+            "6e509c11-4fd9-4246-905b-7276188f7943"
+        ]
+    }
+]

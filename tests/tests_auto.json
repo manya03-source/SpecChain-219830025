@@ -1,15 +1,170 @@
 {
-  "tests": [
-    {
-      "test_id": "T_auto_1",
-      "requirement_id": "FR_auto_1",
-      "scenario": "Logging a workout without crashing",
-      "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
-      ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
-    }
-  ]
+    "tests": [
+        {
+            "test_id": "T_auto_1",
+            "requirement_id": "FR_auto_1",
+            "scenario": "User accesses the relaxation content library and selects a meditation session",
+            "steps": [
+                "Launch the application and navigate to the relaxation content library",
+                "Verify that a variety of content types, including meditation sessions and calming sounds, are available",
+                "Select a meditation session and play it"
+            ],
+            "expected_result": "The selected meditation session plays without interruption, and the user can easily access and play other types of relaxation content"
+        },
+        {
+            "test_id": "T_auto_2",
+            "requirement_id": "FR_auto_2",
+            "scenario": "Customizable meditation experience",
+            "steps": [
+                "Launch the meditation application and navigate to the meditation settings",
+                "Select a duration of 10 minutes, a guided meditation type, and a nature sound",
+                "Adjust the volume to a comfortable level"
+            ],
+            "expected_result": "The system starts a 10-minute guided meditation with nature sounds at the selected volume"
+        },
+        {
+            "test_id": "T_auto_3",
+            "requirement_id": "FR_auto_3",
+            "scenario": "Validate sleep mode transition from meditation session to silent mode",
+            "steps": [
+                "Start a meditation session with calming sounds",
+                "Activate the sleep mode feature",
+                "Verify that the system gradually transitions the meditation session to silent mode over a predefined period"
+            ],
+            "expected_result": "The system successfully transitions the user from the meditation session to a silent mode, helping them fall asleep"
+        },
+        {
+            "test_id": "T_auto_1",
+            "requirement_id": "FR_auto_1",
+            "scenario": "Access to free content sources without paywalls or subscriptions",
+            "steps": [
+                "Launch the application and navigate to the content sources section",
+                "Verify that a list of free content sources is displayed",
+                "Access a content source that typically requires a paywall or subscription"
+            ],
+            "expected_result": "The content from the selected source is accessible without prompting for payment or subscription"
+        },
+        {
+            "test_id": "T_auto_5",
+            "requirement_id": "FR_auto_2",
+            "scenario": "Verify content source access indicators",
+            "steps": [
+                "Navigate to the content sources catalog",
+                "Browse through a list of content sources",
+                "Check the access indicators for each content source"
+            ],
+            "expected_result": "Content sources are clearly labeled as 'Free', 'Free Trial', or 'Subscription required' to indicate access type"
+        },
+        {
+            "test_id": "T_auto_6",
+            "requirement_id": "FR_auto_3",
+            "scenario": "Free trial expiration alert and auto-cancel subscription",
+            "steps": [
+                "Set up a user account with a free trial subscription that expires in 1 day",
+                "Simulate the system sending an alert to the user about the impending free trial expiration",
+                "Do not confirm continuation of subscription within the specified timeframe"
+            ],
+            "expected_result": "The system automatically cancels the user's subscription and notifies them of the cancellation"
+        },
+        {
+            "test_id": "T_auto_7",
+            "requirement_id": "FR_auto_1",
+            "scenario": "User accesses and plays a guided meditation session",
+            "steps": [
+                "Launch the application and navigate to the meditation library",
+                "Select a meditation session with a specific topic and length",
+                "Play the meditation session and verify it starts correctly"
+            ],
+            "expected_result": "The user can access and play a guided meditation session with the selected topic and length, and the session starts playing without errors."
+        },
+        {
+            "test_id": "T_auto_8",
+            "requirement_id": "FR_auto_2",
+            "scenario": "Track user sleep patterns and provide insights on meditation's effect on sleep quality",
+            "steps": [
+                "Create a user account and set up sleep tracking and meditation logging features",
+                "Simulate user sleep patterns and meditation sessions for a period of 7 days",
+                "Generate a report on the user's sleep quality and meditation insights"
+            ],
+            "expected_result": "The system displays a report showing the user's sleep patterns, meditation frequency, and a correlation analysis of how meditation affects their sleep quality over time"
+        },
+        {
+            "test_id": "T_auto_9",
+            "requirement_id": "FR_auto_3",
+            "scenario": "Customizable meditation reminders and sleep schedule functionality",
+            "steps": [
+                "Log in to the system and navigate to the meditation reminders and sleep schedule settings",
+                "Set a customizable meditation reminder for a specific time of the day",
+                "Set a sleep schedule with a preferred bedtime and wake-up time"
+            ],
+            "expected_result": "The system sends a meditation reminder at the set time and tracks the user's sleep schedule, providing a consistent relaxation and sleep routine"
+        },
+        {
+            "test_id": "T_auto_10",
+            "requirement_id": "FR_auto_1",
+            "scenario": "User accesses the meditation library and retrieves sessions of varying lengths and topics",
+            "steps": [
+                "Launch the application and navigate to the meditation library section",
+                "Verify that the library contains sessions of different lengths (e.g., 5, 10, 20 minutes)",
+                "Verify that the library contains sessions on various topics (e.g., stress, sleep, focus)"
+            ],
+            "expected_result": "The user can browse and select meditation sessions of different lengths and topics, and the sessions are playable"
+        },
+        {
+            "test_id": "T_auto_11",
+            "requirement_id": "FR_auto_2",
+            "scenario": "Validation of Soothing Sounds Feature",
+            "steps": [
+                "Launch the meditation application and navigate to the sound selection menu",
+                "Select a nature sound (e.g. rain) and play it in the background during a meditation session",
+                "Verify that the sound can also be played independently outside of a meditation session"
+            ],
+            "expected_result": "The system plays the selected soothing sound (nature or white noise) correctly in the background during meditation and independently for relaxation, with no distortion or interruptions."
+        },
+        {
+            "test_id": "T_auto_12",
+            "requirement_id": "FR_auto_3",
+            "scenario": "Create and save a custom meditation session with guided meditation and soothing sounds",
+            "steps": [
+                "Log in to the system as a valid user",
+                "Navigate to the meditation session creation page",
+                "Select a guided meditation and a soothing sound, then save the custom session",
+                "Verify that the custom session is listed in the user's saved sessions"
+            ],
+            "expected_result": "The system allows the user to successfully create and save a custom meditation session combining their preferred guided meditation with soothing sounds, and the session is accessible in their saved sessions list."
+        },
+        {
+            "test_id": "T_auto_13",
+            "requirement_id": "FR_auto_1",
+            "scenario": "Subscriber cancels their subscription successfully",
+            "steps": [
+                "Log in to the system as an active subscriber",
+                "Navigate to the subscription management section",
+                "Click on the cancellation option and confirm cancellation"
+            ],
+            "expected_result": "The system confirms the subscription has been cancelled and displays a confirmation message"
+        },
+        {
+            "test_id": "T_auto_14",
+            "requirement_id": "FR_auto_2",
+            "scenario": "Automated refund process for subscribers who request it within the specified timeframe after canceling their subscription",
+            "steps": [
+                "Subscriber cancels their subscription and requests a refund within the specified timeframe",
+                "System verifies the subscription cancellation and refund request",
+                "System processes the refund and sends a confirmation to the subscriber"
+            ],
+            "expected_result": "The subscriber receives a refund within the specified timeframe, and the system sends a refund confirmation"
+        },
+        {
+            "test_id": "T_auto_15",
+            "requirement_id": "FR_auto_3",
+            "scenario": "Automated notification for involuntary charges",
+            "steps": [
+                "Subscriber logs into their account with an active subscription",
+                "Involuntary charge is triggered on the subscriber's account",
+                "Subscriber receives automated notification before the charge is processed"
+            ],
+            "expected_result": "Subscriber receives a notification with details of the impending involuntary charge, including amount and reason, before the charge is made to their account."
+        }
+    ]
 }
