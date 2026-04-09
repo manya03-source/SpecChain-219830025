@@ -2,30 +2,141 @@
   "personas": [
     {
       "id": "P_hybrid_1",
-      "name": "Frequent Fitness Logger",
-      "description": "A user who depends on the app for regular workout tracking and expects logging to work reliably during or immediately after exercise.",
+      "name": "Budget Conscious Valerie",
+      "description": "A user seeking mental health support who feels the high subscription cost and restrictive paywalls create an exclusionary experience.",
       "derived_from_group": "H1",
       "goals": [
-        "Log workouts quickly",
-        "Track activities without interruption"
+        "Access quality mindfulness content without a high financial commitment",
+        "Utilize a transparent trial system that doesn't lead to unexpected billing"
       ],
       "pain_points": [
-        "The app crashes while saving workouts",
-        "Previously entered activity data may disappear"
+        "Most effective content is locked behind an expensive subscription",
+        "Steep pricing for users operating on a strict household budget",
+        "Perception of 'scam like' behavior in trial to subscription conversions"
       ],
       "context": [
-        "Using the app during exercise sessions",
-        "Using the app outdoors or while moving"
+        "Searching for affordable alternatives to high cost meditation apps",
+        "Evaluating app value during a limited seven-day trial period"
       ],
       "constraints": [
-        "Workout logging must complete without crashing",
-        "Saved workout data must persist"
+        "Financial barriers must not prevent access to baseline meditation features",
+        "Subscription terms must be clearly communicated prior to credit card entry"
       ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_41"
+        "c4ce35dc-05b6-4008-913f-55141168d864",
+        "52872ba3-1504-4a89-9aed-7e4347d690af"
       ],
-      "notes": "Refined the persona description and removed an unsupported assumption about synchronization."
+      "notes": "Professionalized the 'Freeloader' name and focused on the value to cost ratio cited in the reviews. Added specific constraints regarding billing transparency."
+    },
+    {
+      "id": "P_hybrid_2",
+      "name": "Sleep Story Enthusiast Sam",
+      "description": "A user who relies on specific narrator voices and story variety to manage nighttime anxiety and improve sleep hygiene.",
+      "derived_from_group": "H2",
+      "goals": [
+        "Find soothing narration that helps ease an anxious mind immediately",
+        "Access a diverse library of sleep stories to avoid content fatigue"
+      ],
+      "pain_points": [
+        "Boredom from hearing the same free stories repeatedly",
+        "Difficulty finding specific voices that effectively center the user's focus"
+      ],
+      "context": [
+        "Using the app in bed to decompress from a high stress day",
+        "Listening to audio in the dark with headphones to avoid distractions"
+      ],
+      "constraints": [
+        "Audio quality must be consistent to prevent sudden waking or distraction",
+        "Navigation to sleep specific content must be fast and low stimulating"
+      ],
+      "evidence_reviews": [
+        "5e6527df-9125-409a-b0d3-9e2e8dfe2013",
+        "dc48a31e-b4a0-4a51-bc50-8ac73b915abb"
+      ],
+      "notes": "Refined the generic 'Serenity Seeker' to focus specifically on the Sleep Story feature and the importance of narrator variety mentioned in the reviews."
+    },
+    {
+      "id": "P_hybrid_3",
+      "name": "Stability Prioritizing Ian",
+      "description": "A long term user whose trust in the app is declining due to recent technical regressions and playback interruptions.",
+      "derived_from_group": "H3",
+      "goals": [
+        "Maintain an uninterrupted audio session while multitasking or when the screen is off",
+        "Receive responsive support when technical issues render the app unusable"
+      ],
+      "pain_points": [
+        "The app constantly shuts off or stops playing unexpectedly",
+        "Perceived lack of support response to critical technical requests",
+        "UI feels clunky and unstable compared to previous versions"
+      ],
+      "context": [
+        "Using the app for over a year and noticing a drop in reliability",
+        "Switching between apps or locking the screen during a session"
+      ],
+      "constraints": [
+        "Background audio must persist regardless of device screen state",
+        "Technical support must acknowledge and address stability bugs within a reasonable timeframe"
+      ],
+      "evidence_reviews": [
+        "cc77717b-8b33-4e8b-9c55-544a10025ddb",
+        "5902fd03-0286-4072-8d54-37d9af88a26c"
+      ],
+      "notes": "Converted automated technical feedback into a persona that values reliability over new content. Added constraints regarding background playback."
+    },
+    {
+      "id": "P_hybrid_4",
+      "name": "Routine Oriented Rachel",
+      "description": "A daily user who utilizes the app as a centering tool to begin their morning and decompress in the evening.",
+      "derived_from_group": "H4",
+      "goals": [
+        "Integrate 'The Daily Calm' talks into a consistent morning routine",
+        "Use music and meditation to transition from work life to home life"
+      ],
+      "pain_points": [
+        "Difficulty finding new daily content that resonates with current emotional state",
+        "Need for a seamless transition between music and spoken meditation"
+      ],
+      "context": [
+        "Using the app immediately upon waking or immediately after returning home",
+        "Practicing mindfulness as a foundational daily habit"
+      ],
+      "constraints": [
+        "The 'Daily Calm' content must be updated and accessible every 24 hours",
+        "The interface must facilitate 'one tap' access to daily content"
+      ],
+      "evidence_reviews": [
+        "f4455116-e9f6-44ac-b083-730aa1629043",
+        "9e7c565e-6b06-4cee-992d-426c4cf01aca"
+      ],
+      "notes": "Merged repetitive automated 'seekers' into a specific habit-building persona. Grounded goals in the 'Daily Calm' and 'Music' features cited in reviews."
+    },
+    {
+      "id": "P_hybrid_5",
+      "name": "Navigation Stressed Alex",
+      "description": "A new or trial user who finds the app's onboarding and subscription management overwhelming and unintuitive.",
+      "derived_from_group": "H5",
+      "goals": [
+        "Navigate to simple meditations without being bombarded by marketing deals",
+        "Manage or cancel subscriptions easily without hidden menus"
+      ],
+      "pain_points": [
+        "Intrusive notifications and sign in prompts upon first opening the app",
+        "Unintuitive user interface that feels 'the opposite of calm'",
+        "Challenges when attempting to cancel a recurring payment"
+      ],
+      "context": [
+        "Opening the app for the first time while already in a stressed state",
+        "Evaluating the app's usability before committing to a long term plan"
+      ],
+      "constraints": [
+        "Onboarding must prioritize immediate access to content over sales deals",
+        "The cancellation process must be visible and achievable within the app settings"
+      ],
+      "evidence_reviews": [
+        "7f11ac20-df43-470c-955b-a4fbcd73cc02",
+        "e1db4e17-8c20-4a49-bdbf-7ffe4ef1cb7b"
+      ],
+      "notes": "Refined the 'Frustrated Subscriber' to include specific UI onboarding pain points. Removed generic 'tech support' claims and replaced them with specific UI feedback."
     }
   ]
 }

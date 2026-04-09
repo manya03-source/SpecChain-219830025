@@ -1,13 +1,54 @@
-{  "groups": [
+{
+  "groups": [
     {
       "group_id": "H1",
-      "theme": "Workout logging failures during activity tracking",
-      "review_ids": ["rev_12", "rev_33", "rev_41", "rev_92"],
+      "theme": "High subscription costs vs. limited free accessibility",
+      "review_ids": ["c4ce35dc-05b6-4008-913f-55141168d864", "52872ba3-1504-4a89-9aed-7e4347d690af"],
       "example_reviews": [
-        "The app crashes whenever I try to log a run.",
-        "Logging workouts causes the app to freeze."
+        "The app is great, but the subscription price is very steep for someone on a budget.",
+        "Disappointed that almost everything is locked behind a paywall now. There used to be more free content."
       ],
-      "notes": "Removed one unrelated review about login problems from the original automated group."
+      "notes": "Refined the automated 'price' cluster to specifically highlight the frustration regarding the ratio of free-to-paid content."
+    },
+    {
+      "group_id": "H2",
+      "theme": "Sleep Stories and narrator-specific appreciation",
+      "review_ids": ["5e6527df-9125-409a-b0d3-9e2e8dfe2013", "dc48a31e-b4a0-4a51-bc50-8ac73b915abb"],
+      "example_reviews": [
+        "stressed anxious state mind endure life medication helpful app not use nearly not priortize self thing actually help fail especially appreciate narrator voice word ease nearly immediately amazing thank",
+        "particularly love sleep story listen night find play ve hear time love present new story frequently bored mindfulness meditation stuff"
+      ],
+      "notes": "Merged automated clusters for 'sleep' and 'voice' into a single theme focused on the quality of narrators in Sleep Stories."
+    },
+    {
+      "group_id": "H3",
+      "theme": "Technical stability and audio playback interruptions",
+      "review_ids": ["cc77717b-8b33-4e8b-9c55-544a10025ddb", "5902fd03-0286-4072-8d54-37d9af88a26c"],
+      "example_reviews": [
+        "app unusable technical problem support ignore request help send multiple request receive response",
+        "After using this app for about a little over a year now i have to say I'm extremely disappointed with the technical issues all of a sudden it constantly shuts off and stops playing whatever I'm listening to when I go in and out of the app so frustrated and disappointing i love the content but the app itself is clunky and now almost unusable with these new technical issues what a shame, stop with the corporate greed and just fix it please!"
+      ],
+      "notes": "Identified and grouped specific playback bugs that the automated script had scattered across 'screen' and 'crash' clusters."
+    },
+    {
+      "group_id": "H4",
+      "theme": "Engagement and habit-building with 'The Daily Calm'",
+      "review_ids": ["f4455116-e9f6-44ac-b083-730aa1629043", "9e7c565e-6b06-4cee-992d-426c4cf01aca"],
+      "example_reviews": [
+        "Calm...is the best meditation app that I have found..I love the music and the daily calm talk...it centers me for each day and relaxes me when I get home....I sleep with the music in my headphones every \ud83c\udf19 night ...try it...you'll love it!",
+        "benefit app love daily calm moment sleep meditation sleep music"
+      ],
+      "notes": "Isolated feedback regarding daily routines and session tracking from general 'good' sentiment clusters."
+    },
+    {
+      "group_id": "H5",
+      "theme": "User Interface (UI) complexity and content discovery",
+      "review_ids": ["7f11ac20-df43-470c-955b-a4fbcd73cc02","e1db4e17-8c20-4a49-bdbf-7ffe4ef1cb7b"],
+      "example_reviews": [
+        "Opened App for the first time, looking for simple meditation, and was bombarded with deals and notifications and sign ins that didn't work and an unintuitive user interface. This App is the opposite of calm!",
+        "Very disappointing content and user interface. They also make it challenging to cancel subscriptions. I hope they improve."
+      ],
+      "notes": "Extracted UI-specific complaints that were previously hidden in a broad 'app layout' keyword group."
     }
   ]
 }

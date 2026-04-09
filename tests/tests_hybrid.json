@@ -3,14 +3,127 @@
     {
       "test_id": "T_hybrid_1",
       "requirement_id": "FR_hybrid_1",
-      "scenario": "Save a workout entry without crashing",
+      "scenario": "Visual verification of 'Premium' badges during content search",
       "steps": [
-        "Open the workout logging feature",
-        "Enter workout information",
-        "Submit the workout"
+        "Open the Calm application",
+        "Navigate to the search bar and enter a keyword for a known paid session",
+        "Observe the search results for the presence of a 'Premium' badge",
+        "Enter a keyword for a known free session and observe the results"
       ],
-      "expected_result": "The workout is saved successfully and the application does not crash.",
-      "notes": "Revised the expected result to match the updated hybrid requirement."
+      "expected_result": "All paid content items display a visible 'Premium' icon, while free items have no badge.",
+      "notes": "Revised to specifically test the visual badging requirement derived from Valerie's budget conscious persona."
+    },
+    {
+      "test_id": "T_hybrid_2",
+      "requirement_id": "FR_hybrid_2",
+      "scenario": "Verification of 48 hour trial expiration notification",
+      "steps": [
+        "Enroll a test account in a 7 days free trial",
+        "Fast forward system time to the end of the 5th day (48 hours before expiration)",
+        "Check the device for a push notification"
+      ],
+      "expected_result": "A push notification is triggered at the 5 day mark containing a direct link to the subscription cancellation page.",
+      "notes": "Updated steps to include the specific 48 hour timing and deeplink requirement for better testability."
+    },
+    {
+      "test_id": "T_hybrid_3",
+      "requirement_id": "FR_hybrid_3",
+      "scenario": "Functional test of Sleep Story narrator filtering",
+      "steps": [
+        "Navigate to the Sleep Story library",
+        "Select the 'Narrator' filter option",
+        "Select a specific narrator name from the alphabetized list",
+        "Verify the resulting content list"
+      ],
+      "expected_result": "The system displays only the stories narrated by the selected individual.",
+      "notes": "Converted from generic 'access session' test to a specific filter functionality test for Sleep Story narrators."
+    },
+    {
+      "test_id": "T_hybrid_4",
+      "requirement_id": "FR_hybrid_4",
+      "scenario": "Audio volume normalization measurement",
+      "steps": [
+        "Play 'Sleep Story A' and measure the peak volume level",
+        "Play 'Sleep Story B' (different narrator) and measure the peak volume level",
+        "Compare the peak decibel levels between the two tracks"
+      ],
+      "expected_result": "The maximum peak of both stories is -12 dB, and the difference between them does not exceed 2 dB.",
+      "notes": "Newly created test for the normalization requirement to address Sam's pain point regarding sudden waking."
+    },
+    {
+      "test_id": "T_hybrid_5",
+      "requirement_id": "FR_hybrid_5",
+      "scenario": "Playback persistence during physical screen lock",
+      "steps": [
+        "Start a guided meditation session",
+        "Press the device power button to lock the screen",
+        "Monitor audio output for 60 seconds"
+      ],
+      "expected_result": "The audio continues playing without pausing, stuttering, or stopping when the screen is locked.",
+      "notes": "Refined the automated stability test to specifically target the lock-screen behavior requested by Ian."
+    },
+    {
+      "test_id": "T_hybrid_6",
+      "requirement_id": "FR_hybrid_6",
+      "scenario": "Verification of support ticket status dashboard",
+      "steps": [
+        "Submit a technical support request via the app",
+        "Navigate to the 'Support' dashboard",
+        "Locate the 'My Tickets' section",
+        "Check for status and agent response timestamps"
+      ],
+      "expected_result": "The dashboard displays the current status of the ticket and the timestamp of the last agent response.",
+      "notes": "Created to validate the new support transparency requirement for the Stability Prioritizing persona."
+    },
+    {
+      "test_id": "T_hybrid_7",
+      "requirement_id": "FR_hybrid_7",
+      "scenario": "Verification of Daily Calm content refresh cycle",
+      "steps": [
+        "Log in at 11:55 PM and note the Daily Calm session title",
+        "Wait until 12:01 AM local time",
+        "Refresh the home screen and check the Daily Calm session"
+      ],
+      "expected_result": "The Daily Calm features a new, unique title and audio track different from the previous day.",
+      "notes": "Revised to ensure the content refresh happens precisely at the scheduled time to support Rachel's routine."
+    },
+    {
+      "test_id": "T_hybrid_8",
+      "requirement_id": "FR_hybrid_8",
+      "scenario": "Home screen widget one-tap playback test",
+      "steps": [
+        "Add a specific music track to the 'Morning Routine' widget",
+        "Navigate to the phone/app home screen",
+        "Tap the 'Morning Routine' widget once"
+      ],
+      "expected_result": "The app opens and immediately begins playback of the selected track without requiring further clicks.",
+      "notes": "New test to validate the one tap access constraint for habit building routines."
+    },
+    {
+      "test_id": "T_hybrid_9",
+      "requirement_id": "FR_hybrid_9",
+      "scenario": "Availability and visibility of 'Skip' button during onboarding",
+      "steps": [
+        "Initiate a new user onboarding flow",
+        "Navigate through the steps until a subscription/marketing offer is presented",
+        "Identify the 'Skip' or 'Not Now' button",
+        "Click the button"
+      ],
+      "expected_result": "The 'Skip' button is clearly visible without scrolling and successfully bypasses the offer to the next screen.",
+      "notes": "Refined from vague onboarding tests to specifically address Alex's pain point regarding intrusive marketing."
+    },
+    {
+      "test_id": "T_hybrid_10",
+      "requirement_id": "FR_hybrid_10",
+      "scenario": "Measurement of subscription cancellation click path",
+      "steps": [
+        "Open 'Account Settings'",
+        "Click 1: Select 'Manage Subscription'",
+        "Click 2: Select 'Cancel Subscription'",
+        "Observe the system response"
+      ],
+      "expected_result": "The cancellation is initiated within two clicks, and a confirmation code is generated immediately.",
+      "notes": "Updated to strictly measure the 'two click' constraint required for the Navigation Stressed persona."
     }
   ]
 }
