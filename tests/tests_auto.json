@@ -3,168 +3,170 @@
         {
             "test_id": "T_auto_1",
             "requirement_id": "FR_auto_1",
-            "scenario": "User accesses the relaxation content library and selects a meditation session",
+            "scenario": "Access to free meditation and relaxation content without subscription",
             "steps": [
-                "Launch the application and navigate to the relaxation content library",
-                "Verify that a variety of content types, including meditation sessions and calming sounds, are available",
-                "Select a meditation session and play it"
+                "Launch the application and navigate to the content catalog",
+                "Verify that the catalog is accessible without a subscription",
+                "Browse through the catalog and access a guided meditation and a soothing sound"
             ],
-            "expected_result": "The selected meditation session plays without interruption, and the user can easily access and play other types of relaxation content"
+            "expected_result": "The system displays a catalog of free meditation and relaxation content, including guided meditations and soothing sounds, without requiring a subscription. The user can access and play the content successfully."
         },
         {
             "test_id": "T_auto_2",
             "requirement_id": "FR_auto_2",
-            "scenario": "Customizable meditation experience",
+            "scenario": "User tracks meditation progress",
             "steps": [
-                "Launch the meditation application and navigate to the meditation settings",
-                "Select a duration of 10 minutes, a guided meditation type, and a nature sound",
-                "Adjust the volume to a comfortable level"
+                "Login to the system as a registered user",
+                "Navigate to the meditation tracking page",
+                "Record a new meditation session with a duration of 30 minutes"
             ],
-            "expected_result": "The system starts a 10-minute guided meditation with nature sounds at the selected volume"
+            "expected_result": "The system displays the updated meditation progress, including a total duration of 30 minutes and a frequency of 1 session"
         },
         {
             "test_id": "T_auto_3",
             "requirement_id": "FR_auto_3",
-            "scenario": "Validate sleep mode transition from meditation session to silent mode",
+            "scenario": "User cancels subscription successfully",
             "steps": [
-                "Start a meditation session with calming sounds",
-                "Activate the sleep mode feature",
-                "Verify that the system gradually transitions the meditation session to silent mode over a predefined period"
+                "Log in to the system with an active subscription",
+                "Navigate to the subscription management section",
+                "Initiate cancellation and confirm the cancellation"
             ],
-            "expected_result": "The system successfully transitions the user from the meditation session to a silent mode, helping them fall asleep"
+            "expected_result": "The subscription is cancelled, and the user receives a confirmation of the cancellation"
         },
         {
             "test_id": "T_auto_1",
             "requirement_id": "FR_auto_1",
-            "scenario": "Access to free content sources without paywalls or subscriptions",
+            "scenario": "User accesses and plays a guided relaxation session",
             "steps": [
-                "Launch the application and navigate to the content sources section",
-                "Verify that a list of free content sources is displayed",
-                "Access a content source that typically requires a paywall or subscription"
+                "Launch the application and navigate to the library section",
+                "Select a guided relaxation session from the library",
+                "Play the selected session and verify it starts correctly"
             ],
-            "expected_result": "The content from the selected source is accessible without prompting for payment or subscription"
+            "expected_result": "The selected guided relaxation session plays without errors and the user can hear the content"
         },
         {
             "test_id": "T_auto_5",
             "requirement_id": "FR_auto_2",
-            "scenario": "Verify content source access indicators",
+            "scenario": "Customizable sleep timer functionality",
             "steps": [
-                "Navigate to the content sources catalog",
-                "Browse through a list of content sources",
-                "Check the access indicators for each content source"
+                "Launch the application and navigate to the sleep timer feature",
+                "Set a sleep timer for a duration of 30 minutes",
+                "Verify that the system does not disturb the user during the designated sleep period"
             ],
-            "expected_result": "Content sources are clearly labeled as 'Free', 'Free Trial', or 'Subscription required' to indicate access type"
+            "expected_result": "The system successfully completes the sleep timer duration without disturbance, and the user is not notified during this time"
         },
         {
             "test_id": "T_auto_6",
             "requirement_id": "FR_auto_3",
-            "scenario": "Free trial expiration alert and auto-cancel subscription",
+            "scenario": "Generate sleep quality report for a user with varied sleep patterns",
             "steps": [
-                "Set up a user account with a free trial subscription that expires in 1 day",
-                "Simulate the system sending an alert to the user about the impending free trial expiration",
-                "Do not confirm continuation of subscription within the specified timeframe"
+                "Simulate user data collection for 7 consecutive nights with varying sleep durations and frequencies of awakenings",
+                "Record relaxation techniques used by the user each night",
+                "Generate a sleep quality report for the user through the system"
             ],
-            "expected_result": "The system automatically cancels the user's subscription and notifies them of the cancellation"
+            "expected_result": "The sleep quality report includes accurate data on sleep duration, frequency of awakenings, and relaxation techniques used, providing insights into the user's sleep patterns"
         },
         {
             "test_id": "T_auto_7",
             "requirement_id": "FR_auto_1",
-            "scenario": "User accesses and plays a guided meditation session",
+            "scenario": "User accesses the meditation library and selects a session",
             "steps": [
                 "Launch the application and navigate to the meditation library",
-                "Select a meditation session with a specific topic and length",
-                "Play the meditation session and verify it starts correctly"
+                "Browse through the library and select a meditation session of varying length (e.g., 5-minute, 10-minute, 30-minute)",
+                "Play the selected meditation session"
             ],
-            "expected_result": "The user can access and play a guided meditation session with the selected topic and length, and the session starts playing without errors."
+            "expected_result": "The selected meditation session plays without interruption, and the user is able to listen to the guided meditation"
         },
         {
             "test_id": "T_auto_8",
             "requirement_id": "FR_auto_2",
-            "scenario": "Track user sleep patterns and provide insights on meditation's effect on sleep quality",
+            "scenario": "Validate sleep story feature plays soothing narratives and helps users fall asleep",
             "steps": [
-                "Create a user account and set up sleep tracking and meditation logging features",
-                "Simulate user sleep patterns and meditation sessions for a period of 7 days",
-                "Generate a report on the user's sleep quality and meditation insights"
+                "Pre-register a user and log in to the system",
+                "Navigate to the sleep story feature section",
+                "Select a sleep story and start playing it"
             ],
-            "expected_result": "The system displays a report showing the user's sleep patterns, meditation frequency, and a correlation analysis of how meditation affects their sleep quality over time"
+            "expected_result": "The system plays a soothing narrative, and the user is able to fall asleep or report improved sleep quality"
         },
         {
             "test_id": "T_auto_9",
             "requirement_id": "FR_auto_3",
-            "scenario": "Customizable meditation reminders and sleep schedule functionality",
+            "scenario": "User views personalized dashboard with meditation practice and sleep quality tracking",
             "steps": [
-                "Log in to the system and navigate to the meditation reminders and sleep schedule settings",
-                "Set a customizable meditation reminder for a specific time of the day",
-                "Set a sleep schedule with a preferred bedtime and wake-up time"
+                "Log in to the system with valid user credentials",
+                "Navigate to the personalized dashboard",
+                "Verify that the dashboard displays the user's meditation practice data, including duration and frequency",
+                "Verify that the dashboard displays the user's sleep quality data, including hours slept and sleep stages"
             ],
-            "expected_result": "The system sends a meditation reminder at the set time and tracks the user's sleep schedule, providing a consistent relaxation and sleep routine"
+            "expected_result": "The system displays a personalized dashboard with accurate and up-to-date meditation practice and sleep quality tracking data for the logged-in user"
         },
         {
             "test_id": "T_auto_10",
             "requirement_id": "FR_auto_1",
-            "scenario": "User accesses the meditation library and retrieves sessions of varying lengths and topics",
+            "scenario": "Verify that the system provides a curated list of meditation sessions with varying lengths and categories",
             "steps": [
-                "Launch the application and navigate to the meditation library section",
-                "Verify that the library contains sessions of different lengths (e.g., 5, 10, 20 minutes)",
-                "Verify that the library contains sessions on various topics (e.g., stress, sleep, focus)"
+                "Launch the application and navigate to the meditation session library",
+                "Verify that the library displays sessions with varying lengths (e.g., 5, 10, 20 minutes)",
+                "Verify that the library displays sessions categorized by topics (e.g., stress, sleep, focus)"
             ],
-            "expected_result": "The user can browse and select meditation sessions of different lengths and topics, and the sessions are playable"
+            "expected_result": "The system displays a list of meditation sessions with different lengths and categories, allowing users to browse and select a suitable session for relaxation"
         },
         {
             "test_id": "T_auto_11",
             "requirement_id": "FR_auto_2",
-            "scenario": "Validation of Soothing Sounds Feature",
+            "scenario": "Validate seamless playback, pause, and resume of a meditation session",
             "steps": [
-                "Launch the meditation application and navigate to the sound selection menu",
-                "Select a nature sound (e.g. rain) and play it in the background during a meditation session",
-                "Verify that the sound can also be played independently outside of a meditation session"
+                "Launch the meditation session player and select a meditation session",
+                "Start playing the meditation session and verify that it plays uninterrupted for 30 seconds",
+                "Pause the meditation session for 10 seconds",
+                "Resume playing the meditation session"
             ],
-            "expected_result": "The system plays the selected soothing sound (nature or white noise) correctly in the background during meditation and independently for relaxation, with no distortion or interruptions."
+            "expected_result": "The meditation session plays seamlessly for 30 seconds, pauses for 10 seconds, and then resumes playback from where it left off without any interruptions or quality issues"
         },
         {
             "test_id": "T_auto_12",
             "requirement_id": "FR_auto_3",
-            "scenario": "Create and save a custom meditation session with guided meditation and soothing sounds",
+            "scenario": "User meditation session history tracking",
             "steps": [
-                "Log in to the system as a valid user",
-                "Navigate to the meditation session creation page",
-                "Select a guided meditation and a soothing sound, then save the custom session",
-                "Verify that the custom session is listed in the user's saved sessions"
+                "Create a new user account and log in to the system",
+                "Complete a meditation session and log out",
+                "Log back in and navigate to the meditation history section"
             ],
-            "expected_result": "The system allows the user to successfully create and save a custom meditation session combining their preferred guided meditation with soothing sounds, and the session is accessible in their saved sessions list."
+            "expected_result": "The system displays a list of completed meditation sessions for the user, including the date and duration of each session"
         },
         {
             "test_id": "T_auto_13",
             "requirement_id": "FR_auto_1",
-            "scenario": "Subscriber cancels their subscription successfully",
+            "scenario": "Verify curated list of free or low-cost health and wellness resources",
             "steps": [
-                "Log in to the system as an active subscriber",
-                "Navigate to the subscription management section",
-                "Click on the cancellation option and confirm cancellation"
+                "Launch the application and navigate to the resources section",
+                "Retrieve the list of health and wellness resources",
+                "Verify that each resource is clearly labeled as 'Free' or 'Requires Payment'"
             ],
-            "expected_result": "The system confirms the subscription has been cancelled and displays a confirmation message"
+            "expected_result": "The system displays a curated list of free or low-cost health and wellness resources with clear indications of which resources are free and which require payment"
         },
         {
             "test_id": "T_auto_14",
             "requirement_id": "FR_auto_2",
-            "scenario": "Automated refund process for subscribers who request it within the specified timeframe after canceling their subscription",
+            "scenario": "Access to free health content and visibility of limitations",
             "steps": [
-                "Subscriber cancels their subscription and requests a refund within the specified timeframe",
-                "System verifies the subscription cancellation and refund request",
-                "System processes the refund and sends a confirmation to the subscriber"
+                "Navigate to the system's homepage",
+                "Search for a health-related topic",
+                "Access an article or content related to the searched topic without payment or subscription"
             ],
-            "expected_result": "The subscriber receives a refund within the specified timeframe, and the system sends a refund confirmation"
+            "expected_result": "The user can access the content without payment or subscription and is informed about any limitations on accessing full content or features"
         },
         {
             "test_id": "T_auto_15",
             "requirement_id": "FR_auto_3",
-            "scenario": "Automated notification for involuntary charges",
+            "scenario": "Verifying and updating health and wellness resource availability and cost",
             "steps": [
-                "Subscriber logs into their account with an active subscription",
-                "Involuntary charge is triggered on the subscriber's account",
-                "Subscriber receives automated notification before the charge is processed"
+                "Precondition: A list of health and wellness resources is available in the system",
+                "Step 1: Simulate a regular update trigger in the system (e.g., scheduled daily update)",
+                "Step 2: Verify that the system checks for and retrieves the latest availability and cost information for each resource",
+                "Step 3: Confirm that the system updates the resource list with accurate and current information"
             ],
-            "expected_result": "Subscriber receives a notification with details of the impending involuntary charge, including amount and reason, before the charge is made to their account."
+            "expected_result": "The system successfully updates the list of health and wellness resources with accurate availability and cost information, ensuring that users can access resources without unexpected paywalls or subscription fees."
         }
     ]
 }
