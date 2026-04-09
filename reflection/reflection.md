@@ -1,5 +1,9 @@
-# Application: [Calm] 
-- Most important difference between pipelines: [The automated pipeline produced broader personas, while the manual pipeline produced more focused personas grounded in specific review groups.]
-- Most useful pipeline: [The hybrid pipeline produced the most balanced outputs because it preserved automation speed while improving clarity and traceability.] 
-- Most surprising finding: [Several automated requirements were grammatically correct but too vague to support reliable test generation.]
-- Observed weakness in the automated pipeline: [Some personas included unsupported assumptions that were not clearly grounded in the reviews.]
+# Application: [Calm]
+
+- **Most important difference between pipelines**: The primary difference lies in the **granularity vs. scale trade off**. The automated pipeline processed the entire dataset (3,819 reviews) with 100% coverage but produced generic, keyword heavy artifacts. In contrast, the manual pipeline focused on high impact user stories (like narrator preferences) but lacked the breadth to see app wide trends. The hybrid pipeline successfully bridged this gap by using AI to identify global patterns and human oversight to define specific technical solutions.
+
+- **Most useful pipeline**: The **Hybrid Pipeline** produced the most balanced and actionable outputs. While the automated script could identify that users were "stressed about money," only the hybrid intervention translated that into a specific requirement for a "48 hour notification before trial expiration" with a direct cancellation link. This pipeline preserved the speed of K-Means clustering while ensuring the requirements met professional engineering standards for testability.
+
+- **Most surprising finding**: The **Ambiguity Ratio** in the automated pipeline was significantly higher than the human led pipelines, despite the LLM output sounding "professional." Requirements like "provide a user friendly interface" or "soothing content" were mathematically vague and logically untestable. It was surprising how easily the AI could generate grammatically perfect text that completely lacked engineering substance.
+
+- **Observed weakness in the automated pipeline**: The most prominent weakness was **unsupported persona traits** and **hallucination**. The automated LLM frequently "invented" user motivations, such as a user's skepticism toward digital security, that were not present in the original review clusters. This led to requirements that solved problems the actual users never mentioned, creating a risk of feature bloat and misaligned development priorities.
